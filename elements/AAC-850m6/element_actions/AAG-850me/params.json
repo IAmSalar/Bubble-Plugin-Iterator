@@ -1,0 +1,23 @@
+{
+    "caption": "Start a process for",
+    "fields": {
+        "AAH": {
+            "caption": "Iteration Count",
+            "default_val": 5,
+            "doc": "The number of iterations to execute. Example: 5",
+            "editor": "DynamicValue",
+            "name": "count",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Synchronous?",
+            "default_val": true,
+            "doc": "If enabled, one iteration will complete before the next is triggered. You must explicitly mark an iteration as complete in order for the next iteration to be triggered.",
+            "editor": "DynamicValue",
+            "name": "synchronous",
+            "rank": 1,
+            "value": "boolean"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "technical",
+        "2": "containers"
+    },
+    "description": "Highly-customizable iterator for list operations. Configure and trigger loops, set intervals and handle events. Great for bulk actions, repetition and more!",
+    "image": "//s3.amazonaws.com/appforest_uf/f1612898835027x171242701368560670/iterator.svg",
+    "license": "open_source",
+    "link": "https://withcopilot.com",
+    "name": "Iterator",
+    "plugin_instructions": "========SETUP=========\n\n1. Add the 'Iterator' element to your page\n2. Use the 'Start a process' element action and define the Iteration Count field (e.g. '5' to run 5 times)\n3. Use the 'Started a process' workflow event to catch when the iteration process has started\n4. Execute the operation(s) you require and use the 'Complete an iteration' action to mark that first iteration as complete\n5. Use the 'Completed an iteration' workflow event to catch the proceeding iterations and continue to use the 'Complete an iteration' action at the end\n6. Optionally, you can use the 'Completed a process' workflow event to know when the entire iteration process has completed\n\nTip: consider using a Custom Event to contain the operation(s) you want to run for each iteration including the 'Completed an iteration' workflow action at the end to make it easy to execute from the 'Completed an iteration' workflow event\n\n====== RESOURCES ======\n\nFind a bug? \nSubmit a bug report at https://withcopilot.com/contact\n\nInterested in courses? \nCheck out https://withcopilot.com/courses\n\nPrefer one-on-one assistance? \nBook half-an-hour with us at https://withcopilot.com/sessions\n\n======== LICENSE ========\n\nOpen-source plugins like this one are served under an MIT License. https://en.wikipedia.org/wiki/MIT_License"
+}

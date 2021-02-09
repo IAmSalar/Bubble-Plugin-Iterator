@@ -1,0 +1,50 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Iterator",
+    "events": {
+        "AAF": {
+            "caption": "completed a process",
+            "name": "complete"
+        },
+        "AAK": {
+            "caption": "started a process",
+            "name": "started"
+        },
+        "AAL": {
+            "caption": "completed an interation",
+            "name": "iteration"
+        }
+    },
+    "icon": "ion-loop",
+    "states": {
+        "AAD": {
+            "caption": "Position",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn 0\n    \n}"
+            },
+            "name": "count",
+            "value": "number"
+        },
+        "AAO": {
+            "caption": "Remaining",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn 0\n\n}"
+            },
+            "name": "remaining",
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "Total",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\treturn 0\n\n}"
+            },
+            "name": "total",
+            "value": "number"
+        }
+    }
+}
